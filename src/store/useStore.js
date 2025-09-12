@@ -26,7 +26,10 @@ export const useStore = create(
           return {};
         }),
 
-      reset: () => set({ count: 0, modalOpen: false }),
+      reset: () => {
+        set({ count: 0, modalOpen: false });
+        window.location.reload();
+      },
 
       toggleSound: () => set((s) => ({ soundEnabled: !s.soundEnabled })),
 
