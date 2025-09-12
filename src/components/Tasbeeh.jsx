@@ -52,9 +52,8 @@ export default function Tasbeeh() {
   const count = useStore((s) => s.count);
   const target = useStore((s) => s.target);
   const increment = useStore((s) => s.increment);
-  const soundEnabled = useStore((s) => s.soundEnabled);
-  const toggleSound = useStore((s) => s.toggleSound);
   const modalOpen = useStore((s) => s.modalOpen);
+   const soundEnabled = useStore((s) => s.soundEnabled); 
 
   const [confettiTrigger, setConfettiTrigger] = useState(false);
   const { play } = useClickSound();
@@ -102,15 +101,7 @@ export default function Tasbeeh() {
           </h1>
           <p className="text-sm text-[var(--muted)]"> اضغط على الزر وابدأ</p>
         </div>
-        <div className="flex items-center gap-3">
-          <button
-            onClick={toggleSound}
-            className="p-2 rounded-full glass cursor-pointer"
-            aria-label="Toggle sound"
-          >
-            {soundEnabled ? "🔊" : "🔈"}
-          </button>
-        </div>
+      
       </div>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center ">
