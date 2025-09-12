@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/digitaltasbeeh.png" type="image/png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/icon-192.png" type="image/png" />
+    <meta name="theme-color" content="#16a34a" />
+
+
     <title>Digital Tasbeeh</title>
     <script>
       (function () {
         try {
           const stored = localStorage.getItem("theme");
-          const theme = stored || "dark"; 
+          const theme = stored || "dark";
           document.documentElement.setAttribute("data-theme", theme);
         } catch (e) {
           /* ignore */
@@ -17,7 +22,7 @@
       })();
     </script>
   </head>
-  <body >
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
