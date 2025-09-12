@@ -116,7 +116,7 @@ export default function Tasbeeh() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center ">
         {/* Left: big circular counter */}
         <div className="flex justify-center">
-          <div className="relative w-50 h-50 md:w-96 md:h-96 flex  items-center justify-center">
+          <div className="relative w-50 h-50 md:w-100 md:h-90 flex  items-center justify-center">
             {/* glowing circle background */}
             <div
               style={{
@@ -188,7 +188,7 @@ export default function Tasbeeh() {
         {/* Right: big tasbeeh button and controls */}
         <div className="flex flex-col gap-5 items-center ">
           <div
-            className="w-40 h-40 md:w-72 md:h-72 rounded-full flex items-center justify-center cursor-pointer transform active:scale-95 transition"
+            className="w-35 h-35 md:w-72 md:h-72 rounded-full flex items-center justify-center cursor-pointer transform active:scale-95 transition"
             onClick={handleTap}
           >
             <div
