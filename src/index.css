@@ -60,7 +60,7 @@ body {
   height: 100%;
 }
 body {
-  background:
+  /* background:
     radial-gradient(
       600px 400px at 10% 10%,
       color-mix(in srgb, var(--accent-start) 18%, transparent) 0%,
@@ -71,16 +71,18 @@ body {
       color-mix(in srgb, var(--accent-end) 18%, transparent) 0%,
       transparent 40%
     ),
-    linear-gradient(180deg, var(--bg-1), var(--bg-2));
+    linear-gradient(180deg, var(--bg-1), var(--bg-2)); */
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overscroll-behavior: none;
   overflow: hidden;
+  background: url("/bg_sebha.png") no-repeat center center fixed;
+  background-size: cover; 
 }
 
 #root {
-  background-color: inherit; 
+  background-color: inherit;
 }
 
 /* Glass utility we will reuse */
