@@ -7,6 +7,11 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      includeAssets: [
+        'favicon.ico',
+        'sounds/click.mp3',
+        'sounds/celebrate.mp3'
+      ],
       manifest: {
         name: 'السبحة الرقمية',
         short_name: 'سبحة',
