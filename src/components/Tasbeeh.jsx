@@ -116,7 +116,7 @@ export default function Tasbeeh() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center ">
         {/* Left: big circular counter */}
         <div className="flex justify-center">
-          <div className="relative w-56 h-56 md:w-96 md:h-96 flex  items-center justify-center">
+          <div className="relative w-50 h-50 md:w-96 md:h-96 flex  items-center justify-center">
             {/* glowing circle background */}
             <div
               style={{
@@ -223,10 +223,7 @@ export default function Tasbeeh() {
                 }}
               />
             </div>
-            <div className="mt-3 text-xs text-[var(--muted)]">
-              التغيّر بيحفظ أوتوماتيكي
-            </div>
-
+      
             {/* 👇 زرار إعادة التصفير */}
             <button
               onClick={() => useStore.getState().reset()}
