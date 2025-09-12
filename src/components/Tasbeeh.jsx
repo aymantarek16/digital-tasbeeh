@@ -186,7 +186,7 @@ export default function Tasbeeh() {
         </div>
 
         {/* Right: big tasbeeh button and controls */}
-        <div className="flex flex-col gap-5 items-center ">
+        <div className="flex flex-col gap-5 items-center">
           <div
             className="w-35 h-35 md:w-72 md:h-72 rounded-full flex items-center justify-center cursor-pointer transform active:scale-95 transition"
             onClick={handleTap}
