@@ -97,7 +97,9 @@ export default function Tasbeeh() {
     <div className="max-w-3xl mx-auto p-6 mt-[-45px] md:mt-0">
       <div className="flex justify-between items-center mb-6">
         <div className="text-center mb-5 w-full">
-          <h1 className="text-xl md:text-2xl font-bold counter-digital">السبحة الرقمية</h1>
+          <h1 className="text-xl md:text-2xl font-bold counter-digital">
+            السبحة الرقمية
+          </h1>
           <p className="text-sm text-[var(--muted)]"> اضغط على الزر وابدأ</p>
         </div>
         <div className="flex items-center gap-3">
@@ -111,10 +113,10 @@ export default function Tasbeeh() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center ">
         {/* Left: big circular counter */}
         <div className="flex justify-center">
-          <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
+          <div className="relative w-56 h-56 md:w-96 md:h-96 flex  items-center justify-center">
             {/* glowing circle background */}
             <div
               style={{
@@ -133,18 +135,23 @@ export default function Tasbeeh() {
             >
               <div className="text-center">
                 <div
-                  className="text-6xl md:text-[6.5rem] counter-digital"
+                  className="text-4xl md:text-[6.5rem] counter-digital"
                   style={{ lineHeight: 1 }}
                 >
                   {count}
                 </div>
-                <div className="text-sm text-[var(--muted)] mt-2">
+                <div className="text-xs md:text-sm text-[var(--muted)] mt-2">
                   من {target} تسبيحات
                 </div>
 
                 {/* circular progress ring (SVG) */}
                 <div className="mt-4 flex justify-center">
-                  <svg width="140" height="140" viewBox="0 0 120 120">
+                  <svg
+                    width="100"
+                    height="100"
+                    viewBox="0 0 120 120"
+                    className="md:w-[140px] md:h-[140px]"
+                  >
                     <defs />
                     <g transform="rotate(-90 60 60)">
                       <circle
@@ -179,9 +186,9 @@ export default function Tasbeeh() {
         </div>
 
         {/* Right: big tasbeeh button and controls */}
-        <div className="flex flex-col gap-5 items-center">
+        <div className="flex flex-col gap-5 items-center ">
           <div
-            className="w-56 h-56 md:w-72 md:h-72 rounded-full flex items-center justify-center cursor-pointer transform active:scale-95 transition"
+            className="w-40 h-40 md:w-72 md:h-72 rounded-full flex items-center justify-center cursor-pointer transform active:scale-95 transition"
             onClick={handleTap}
           >
             <div
@@ -192,9 +199,11 @@ export default function Tasbeeh() {
                 boxShadow: "0 20px 60px rgba(7,17,34,0.12)",
               }}
             >
-              <div className="w-44 h-44 md:w-56 md:h-56 rounded-full glass flex flex-col items-center justify-center">
-                <div className="text-3xl md:text-4xl font-semibold">سبح</div>
-                <div className="text-sm text-[var(--muted)] mt-1">اضغط هنا</div>
+              <div className="w-28 h-28 md:w-56 md:h-56 rounded-full glass flex flex-col items-center justify-center">
+                <div className="text-lg md:text-4xl font-semibold">سبح</div>
+                <div className="text-xs md:text-sm text-[var(--muted)] mt-1">
+                  اضغط هنا
+                </div>
               </div>
             </div>
           </div>
