@@ -1,7 +1,5 @@
 # 🌙 Digital Tasbeeh ✨
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[Repository Link](https://github.com/aymantarek16/digital-tasbeeh)
 
 **Digital Tasbeeh** is a **modern, interactive digital Tasbeeh (prayer beads) application** built with **React + TailwindCSS**, designed to bring a smooth, engaging, and visually stunning tasbeeh experience to both **mobile and desktop users**.
 
