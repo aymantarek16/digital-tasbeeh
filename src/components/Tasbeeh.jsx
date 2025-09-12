@@ -94,10 +94,10 @@ export default function Tasbeeh() {
   const percent = Math.min(100, Math.round((count / target) * 100));
 
   return (
-    <div className="max-w-3xl mx-auto p-6 mt-[-20px] md:mt-0">
+    <div className="max-w-3xl mx-auto p-6 mt-[-45px] md:mt-0">
       <div className="flex justify-between items-center mb-6">
         <div className="text-center mb-5 w-full">
-          <h1 className="text-2xl font-bold counter-digital">السبحة الرقمية</h1>
+          <h1 className="text-xl md:text-2xl font-bold counter-digital">السبحة الرقمية</h1>
           <p className="text-sm text-[var(--muted)]"> اضغط على الزر وابدأ</p>
         </div>
         <div className="flex items-center gap-3">
