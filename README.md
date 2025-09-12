@@ -1,49 +1,54 @@
-# Digital Tasbeeh
+# 🌙 Digital Tasbeeh ✨
 
-Digital Tasbeeh is a modern **interactive digital Tasbeeh (prayer beads) application** built with **React** and **TailwindCSS**. It offers a smooth, engaging, and visually appealing way to perform tasbeeh on **mobile and desktop devices**.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[Repository Link](https://github.com/aymantarek16/digital-tasbeeh)
+
+**Digital Tasbeeh** is a **modern, interactive digital Tasbeeh (prayer beads) application** built with **React + TailwindCSS**, designed to bring a smooth, engaging, and visually stunning tasbeeh experience to both **mobile and desktop users**.
 
 ---
 
-## 🌟 Features
+## 🌟 Features & Highlights
 
-- **Interactive Circular Counter**  
-  A glowing circular counter shows your progress clearly, giving a satisfying visual feedback for every tasbeeh.
+### 🔹 Interactive Circular Counter
+A glowing, animated **circular counter** visually shows your progress for each tasbeeh, creating a satisfying and immersive experience.
 
-- **Big Tasbeeh Button**  
-  Press a large, elegant digital button that simulates a real tasbeeh. Animations and subtle effects enhance the experience.
+### 🔹 Elegant Tasbeeh Button
+A **large, interactive digital button** simulates a real tasbeeh.  
+Includes subtle **animations, scale effects, and radial gradients** to make each tap delightful.
 
-- **Reset Button**  
-  You can **reset your count** at any time with a stylish reset button, starting from zero again.
+### 🔄 Reset Button
+Reset your count anytime with a **stylish button**, starting fresh from zero. Perfect for multiple sessions.
 
-- **Dark & Light Mode**  
-  Easily switch between **dark and light themes** with a single click. The theme instantly updates your UI colors for comfortable usage at any time.
+### 🌗 Dark & Light Mode
+Easily switch between **dark and light themes** with one click.  
+The UI instantly adapts for comfortable use at any time of day.
 
-- **Sound Feedback**  
-  Each tap plays a subtle click sound. You can toggle the sound on or off according to your preference.
+### 🔊 Sound Feedback
+Every tap plays a **subtle click sound**. Toggle the sound **on/off** to suit your preference.
 
-- **Celebratory Confetti**  
-  When you reach your target (default: 100 tasbeehs), a colorful confetti animation bursts from the top, giving a delightful feeling of accomplishment.
+### 🎉 Celebratory Confetti
+Reaching your target (default 100 tasbeehs) triggers a **colorful confetti animation** from the top, giving a joyful sense of accomplishment.
 
-- **Persistent Progress**  
-  Your current count is **saved automatically** in the browser. You can refresh the page or close it, and your progress will remain intact.
+### 💾 Persistent Progress
+Your count is **automatically saved in localStorage**. Refresh or close the page — your progress stays intact.
 
-- **Progress Visualization**  
-  Shows a percentage progress bar below the main button, updating in real-time as you count.
+### 📊 Real-Time Progress Bar
+A **percentage bar** visually shows your progress toward the target in real-time.
 
-- **Offline Support & PWA**  
-  The app can be installed as a **Progressive Web App (PWA)**, allowing you to use it **offline**. Once installed, it behaves like a native app on both desktop and mobile.
+### 📱 Offline & PWA Ready
+Install the app as a **Progressive Web App** and use it **offline**. Works like a native app on **desktop and mobile**.
 
 ---
 
 ## 📸 Screenshots
 
-**Home Screen:**
+**Home Screen**  
 
-![Home](public/screenshots/home.png)
+![Home](https://github.com/aymantarek16/digital-tasbeeh/raw/main/public/screenshots/home.png)
 
-**Target Achieved Screen:**
+**Target Achieved Screen**  
 
-![Done](public/screenshots/done.png)
+![Done](https://github.com/aymantarek16/digital-tasbeeh/raw/main/public/screenshots/done.png)
 
 ---
 
@@ -52,5 +57,5 @@ Digital Tasbeeh is a modern **interactive digital Tasbeeh (prayer beads) applica
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/aymantarek16/digital-tasbeeh.git
 cd digital-tasbeeh
