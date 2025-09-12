@@ -97,7 +97,7 @@ export default function Tasbeeh() {
       <div className="flex justify-between items-center mb-6">
         <div className="text-center mb-5 w-full">
           <h2 className="text-lg md:text-xl font-semibold text-[var(--text)] mb-1">
-            فسبح باسم ربك العظيم
+          فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ 
           </h2>
           <p className="text-sm text-[var(--muted)]"> اضغط على الزر وابدأ</p>
         </div>
