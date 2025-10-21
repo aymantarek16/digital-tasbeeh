@@ -68,10 +68,7 @@ export default function App() {
 
         <meta name="author" content="Ayman Tarek" />
         <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://digital-tasbeeh-flax.vercel.app/"
-        />
+        <link rel="canonical" href="https://digital-tasbeeh-flax.vercel.app/" />
 
         {/* 🌍 Open Graph (Facebook / WhatsApp Preview) */}
         <meta
@@ -116,13 +113,27 @@ export default function App() {
       <div className="min-h-screen">
         <nav className="py-4 px-6 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="text-lg font-bold counter-digital">سبحة • Digital</div>
-            <div className="text-sm text-[var(--muted)] ">By Ayman Tarek</div>
+            <div className="text-lg font-bold counter-digital">
+              سبحة • Digital
+            </div>
+            <div className="text-sm text-[var(--muted)]">By Ayman Tarek</div>
           </div>
           <div className="flex items-center gap-3">
             <ThemeToggle />
           </div>
         </nav>
+
+        {/* 👇 الهيدر الجديد اللي فيه النص بتاعك */}
+        <header className="px-2 pb-3 text-center border-b border-[var(--muted)]/20">
+          <h1 className="text-2xl font-bold mb-2">🌿 سبحتك الرقمية اليومية</h1>
+          <p className="text-[var(--muted)] leading-relaxed">
+            تجربة هادئة لتسبيح الله واستغفاره بسهولة وسرعة.
+            <br />
+            صُممت بواسطة{" "}
+            <span className="font-semibold">المهندس أيمن طارق</span> لترافقك في
+            ذكرك لله في أي وقت وأي مكان.
+          </p>
+        </header>
 
         <main className="py-6 px-4">
           <Tasbeeh />

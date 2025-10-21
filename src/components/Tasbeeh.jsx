@@ -93,13 +93,13 @@ export default function Tasbeeh() {
   const percent = Math.min(100, Math.round((count / target) * 100));
 
   return (
-    <div className="max-w-3xl mx-auto p-6 mt-[-45px] md:mt-0">
-      <div className="flex justify-between items-center mb-6">
-        <div className="text-center mb-5 w-full">
-          <h2 className="text-lg md:text-xl font-semibold text-[var(--text)] mb-1">
+    <div className="max-w-3xl mx-auto p-6 mt-[-45px] md:mt-0 flex flex-col gap-4">
+      <div className="flex justify-between items-center mb-1">
+        <div className="text-center w-full">
+          <h2 className="text-lg md:text-xl font-semibold text-[var(--text)] mt-2">
           فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ 
           </h2>
-          <p className="text-sm text-[var(--muted)]"> اضغط على الزر وابدأ</p>
+          <p className="text-sm text-[var(--muted)]"> ابدأ الذِّكر بلمسة</p>
         </div>
       </div>
 
