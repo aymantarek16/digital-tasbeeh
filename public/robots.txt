@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://digital-tasbeeh-flax.vercel.app/sitemap.xml
