@@ -1,31 +1,80 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
 
-    <!-- أيقونة الموقع الافتراضية -->
-    <link rel="icon" href="/sebha-icon.png" sizes="512x512" type="image/png" />
+    <!-- 🕌 SEO أساسية -->
+    <title>تسابيح رقمية | Digital Tasbeeh by Ayman Tarek</title>
+    <meta
+      name="description"
+      content="سبّح بسهولة وعد تسبيحاتك إلكترونيًا مع Digital Tasbeeh. سبحة رقمية مجانية وسهلة الاستخدام للمسلمين لذكر الله في أي وقت وأي مكان. من تصميم أيمن طارق."
+    />
+    <meta
+      name="keywords"
+      content="تسابيح, تسبيح, تسابيح رقمية, تسبيح رقمي, tasabih, digital tasabih, tasbeeh digital, tasabih by ayman tarek, سبحة, السبحه, سبحه رقمية, سبحه ايمن طارق, Tasbeeh, ذكر الله, استغفار, سبحان الله, الحمد لله, الله أكبر, مسلم, أذكار, تسبيح إلكتروني"
+    />
+    <meta name="author" content="Ayman Tarek" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://digital-tasbeeh-flax.vercel.app/" />
 
-    <!-- Manifest PWA -->
+    <!-- 🌍 Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="تسابيح رقمية | Digital Tasbeeh by Ayman Tarek"
+    />
+    <meta
+      property="og:description"
+      content="عد تسبيحاتك إلكترونيًا بسهولة مع Digital Tasbeeh. سبحة رقمية بسيطة وأنيقة لذكر الله من تصميم أيمن طارق."
+    />
+    <meta
+      property="og:image"
+      content="https://digital-tasbeeh-flax.vercel.app/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://digital-tasbeeh-flax.vercel.app/"
+    />
+
+    <!-- 🐦 Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="تسابيح رقمية | Digital Tasbeeh by Ayman Tarek"
+    />
+    <meta
+      name="twitter:description"
+      content="سبحة رقمية مجانية وسهلة الاستخدام لذكر الله. من تصميم أيمن طارق."
+    />
+    <meta
+      name="twitter:image"
+      content="https://digital-tasbeeh-flax.vercel.app/og-image.png"
+    />
+
+    <!-- 🌈 PWA -->
     <link rel="manifest" href="/manifest.json" />
-
-    <!-- Theme color -->
     <meta name="theme-color" content="#16a34a" />
 
-    <title>Digital Tasbeeh</title>
+    <!-- 🔹 Favicon -->
+    <link rel="icon" href="/sebha-icon.png" sizes="512x512" type="image/png" />
+    <link rel="apple-touch-icon" href="/sebha-icon.png" />
+
+    <!-- 🌓 تهيئة الثيم (داكن / فاتح) -->
     <script>
       (function () {
         try {
           const stored = localStorage.getItem("theme");
           const theme = stored || "dark";
           document.documentElement.setAttribute("data-theme", theme);
-        } catch (e) {
-          /* ignore */
-        }
+        } catch (e) {}
       })();
     </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
