@@ -123,18 +123,15 @@ export default function App() {
           </div>
         </nav>
 
-        {/* 👇 الهيدر الجديد اللي فيه النص بتاعك */}
+        {/* Header */}
         <header className="px-2 pb-3 text-center border-b border-[var(--muted)]/20">
           <h1 className="text-2xl font-bold mb-2">🌿 سبحتك الرقمية اليومية</h1>
           <p className="text-[var(--muted)] leading-relaxed">
             تجربة هادئة لتسبيح الله واستغفاره بسهولة وسرعة.
-            <br />
-            صُممت بواسطة{" "}
-            <span className="font-semibold">المهندس أيمن طارق</span> لترافقك في
-            ذكرك لله في أي وقت وأي مكان.
           </p>
         </header>
 
+        {/* Main Content */}
         <main className="py-6 px-4">
           <Tasbeeh />
         </main>
