@@ -73,7 +73,7 @@ export default function App() {
         {/* 🌍 Open Graph (Facebook / WhatsApp Preview) */}
         <meta
           property="og:title"
-          content="تسابيح رقمية | Digital Tasbeeh by Ayman Tarek"
+          content="Digital Tasbeeh by Ayman Tarek"
         />
         <meta
           property="og:description"
@@ -123,13 +123,7 @@ export default function App() {
           </div>
         </nav>
 
-        {/* Header */}
-        <header className="px-2 pb-3 text-center border-b border-[var(--muted)]/20">
-          <h1 className="text-2xl font-bold mb-2">🌿 سبحتك الرقمية اليومية</h1>
-          <p className="text-[var(--muted)] leading-relaxed">
-            تجربة هادئة لتسبيح الله واستغفاره بسهولة وسرعة.
-          </p>
-        </header>
+      
 
         {/* Main Content */}
         <main className="py-6 px-4">
